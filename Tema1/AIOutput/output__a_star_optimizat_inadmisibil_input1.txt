@@ -1,0 +1,189 @@
+Solutie: 
+Nodul cu id: 0
+addaabbb
+aaaaffxc
+aaabccdc
+aadddaab
+
+Nodul cu id: 5288
+addabb
+aaaaxc
+aaabdc
+aaddab
+
+Am taiat coloanele 4 5 
+Nodul cu id: 5567
+adabb
+aaaxc
+aabdc
+aadab
+
+Am taiat coloana 2
+Nodul cu id: 5869
+aabb
+aaxc
+abdc
+adab
+
+Am taiat coloana 1
+Nodul cu id: 6084
+abb
+axc
+bdc
+dab
+
+Am taiat coloana 0
+Nodul cu id: 6236
+abb
+axc
+
+Am taiat liniile 2 3 
+Cost: 11.75
+Lungime: 6
+Timp pt a gasi solutia: 1462 ms
+Nr maxim noduri in memorie: 1344
+Nr de noduri generate: 5373
+----------------
+Solutie: 
+Nodul cu id: 0
+addaabbb
+aaaaffxc
+aaabccdc
+aadddaab
+
+Nodul cu id: 5288
+addabb
+aaaaxc
+aaabdc
+aaddab
+
+Am taiat coloanele 4 5 
+Nodul cu id: 5567
+adabb
+aaaxc
+aabdc
+aadab
+
+Am taiat coloana 2
+Nodul cu id: 5869
+aabb
+aaxc
+abdc
+adab
+
+Am taiat coloana 1
+Nodul cu id: 6183
+aabb
+aaxc
+adab
+
+Am taiat linia 2
+Nodul cu id: 6342
+abb
+axc
+dab
+
+Am taiat coloana 0
+Nodul cu id: 6502
+abb
+axc
+
+Am taiat linia 2
+Cost: 13.333333333333334
+Lungime: 7
+Timp pt a gasi solutia: 1729 ms
+Nr maxim noduri in memorie: 1402
+Nr de noduri generate: 5877
+----------------
+Solutie: 
+Nodul cu id: 0
+addaabbb
+aaaaffxc
+aaabccdc
+aadddaab
+
+Nodul cu id: 5272
+addbbb
+aaafxc
+aaacdc
+aadaab
+
+Am taiat coloanele 3 4 
+Nodul cu id: 5667
+addbb
+aaaxc
+aaadc
+aadab
+
+Am taiat coloana 3
+Nodul cu id: 6193
+adbb
+aaxc
+aadc
+aaab
+
+Am taiat coloana 2
+Nodul cu id: 6512
+abb
+axc
+adc
+aab
+
+Am taiat coloana 1
+Nodul cu id: 6564
+abb
+axc
+
+Am taiat liniile 2 3 
+Cost: 14.25
+Lungime: 6
+Timp pt a gasi solutia: 1745 ms
+Nr maxim noduri in memorie: 1421
+Nr de noduri generate: 5955
+----------------
+Solutie: 
+Nodul cu id: 0
+addaabbb
+aaaaffxc
+aaabccdc
+aadddaab
+
+Nodul cu id: 5260
+addabbb
+aaaafxc
+aaabcdc
+aaddaab
+
+Am taiat coloana 4
+Nodul cu id: 5829
+addbb
+aaaxc
+aaadc
+aadab
+
+Am taiat coloanele 3 4 
+Nodul cu id: 6352
+adbb
+aaxc
+aadc
+aaab
+
+Am taiat coloana 2
+Nodul cu id: 6573
+abb
+axc
+adc
+aab
+
+Am taiat coloana 1
+Nodul cu id: 6629
+abb
+axc
+
+Am taiat liniile 2 3 
+Cost: 15.25
+Lungime: 6
+Timp pt a gasi solutia: 1755 ms
+Nr maxim noduri in memorie: 1424
+Nr de noduri generate: 6013
+----------------

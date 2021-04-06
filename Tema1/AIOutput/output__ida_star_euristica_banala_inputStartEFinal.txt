@@ -1,0 +1,11 @@
+Solutie: 
+Nodul cu id: 0
+abb
+axz
+
+Cost: 0
+Lungime: 1
+Timp pt a gasi solutia: 0 ms
+Nr maxim noduri in memorie: 245
+Nr de noduri generate: 0
+----------------

@@ -1,0 +1,119 @@
+Solutie: 
+Nodul cu id: 0
+ddaabbb
+aaaffxc
+aabccdc
+adddaab
+
+Nodul cu id: 3600
+ddaabbb
+aaaffxc
+
+Am taiat liniile 2 3 
+Nodul cu id: 3607
+aabbb
+affxc
+
+Am taiat coloanele 0 1 
+Nodul cu id: 3621
+abb
+axc
+
+Am taiat coloanele 1 2 
+Cost: 6.25
+Lungime: 4
+Timp pt a gasi solutia: 29 ms
+Nr maxim noduri in memorie: 101
+Nr de noduri generate: 149
+----------------
+Solutie: 
+Nodul cu id: 0
+ddaabbb
+aaaffxc
+aabccdc
+adddaab
+
+Nodul cu id: 3600
+ddaabbb
+aaaffxc
+
+Am taiat liniile 2 3 
+Nodul cu id: 3610
+ddabb
+aaaxc
+
+Am taiat coloanele 3 4 
+Nodul cu id: 3622
+abb
+axc
+
+Am taiat coloanele 0 1 
+Cost: 6.25
+Lungime: 4
+Timp pt a gasi solutia: 29 ms
+Nr maxim noduri in memorie: 101
+Nr de noduri generate: 149
+----------------
+Solutie: 
+Nodul cu id: 0
+ddaabbb
+aaaffxc
+aabccdc
+adddaab
+
+Nodul cu id: 3600
+ddaabbb
+aaaffxc
+
+Am taiat liniile 2 3 
+Nodul cu id: 3606
+ddaabb
+aaafxc
+
+Am taiat coloana 4
+Nodul cu id: 3636
+ddabb
+aaaxc
+
+Am taiat coloana 3
+Nodul cu id: 3649
+abb
+axc
+
+Am taiat coloanele 0 1 
+Cost: 7.75
+Lungime: 5
+Timp pt a gasi solutia: 57 ms
+Nr maxim noduri in memorie: 152
+Nr de noduri generate: 275
+----------------
+Solutie: 
+Nodul cu id: 0
+ddaabbb
+aaaffxc
+aabccdc
+adddaab
+
+Nodul cu id: 3644
+ddabb
+aaaxc
+aabdc
+addab
+
+Am taiat coloanele 3 4 
+Nodul cu id: 3645
+ddabb
+aaaxc
+
+Am taiat liniile 2 3 
+Nodul cu id: 3655
+abb
+axc
+
+Am taiat coloanele 0 1 
+Cost: 8.25
+Lungime: 4
+Timp pt a gasi solutia: 61 ms
+Nr maxim noduri in memorie: 171
+Nr de noduri generate: 308
+----------------
