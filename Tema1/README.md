@@ -77,16 +77,26 @@ Stare finală  Stare curentă:
 
 | Algoritmul folosit                    	| Lungimea drumului 	| Costul drumului 	| Numărul maxim de noduri în memorie 	| Numărul total de noduri generate 	| Timpul pentru a găsi soluția (ms) 	|
 |---------------------------------------	|-------------------	|:---------------:	|:----------------------------------:	|:--------------------------------:	|-----------------------------------	|
-| Uniform Search                        	| 3 / 4             	|    4.4 / 6.25   	|              702 / 822             	|            770 / 1017            	| 40 / 86                           	|
-| A* - euristica banală                 	| 3 / 4             	|    4.4 / 6.25   	|              300 / 432             	|             320 / 502            	| 15 / 27                           	|
-| A* - euristica 1                      	| 3 / 4             	|    4.4 / 6.25   	|              89 / 159              	|             94 / 193             	| 5 / 12                            	|
-| A* - euristica 2                      	| 3 / 4             	|    4.4 / 6.25   	|              300 / 426             	|             321 / 502            	| 16 / 29                           	|
-| A* - euristica inadmisibilă           	| 3 / 4             	|    4.4 / 6.25   	|              694 / 782             	|             761 / 966            	| 36 / 56                           	|
-| A* optimizat - euristica banală       	| 3 / 4             	|    4.4 / 6.25   	|              201 / 199             	|             278 / 374            	| 28 / 33                           	|
-| A* optimizat - euristica 1            	| 3 / 4             	|    4.4 / 6.25   	|              80 / 101              	|             84 / 149             	| 13 / 29                           	|
-| A* optimizat - euristica 2            	| 3 / 4             	|    4.4 / 6.25   	|              200 / 200             	|             279 / 377            	| 59 / 56                           	|
-| A* optimizat - euristica inadmisibilă 	| 6  / 4            	|   11.75 /6.25   	|             1344 / 257             	|            5373 / 537            	| 1462 / 64                         	|
-| IDA* - euristica banală               	| 3 / 4             	| 4.4 / 6.25      	|  53 / 163                          	| 1636 / 4820                      	| 105 / 312                         	|
-| IDA* - euristica 1                    	| 3  / 4            	|    4.4 / 6.25   	|              77 / 186              	|            349 / 1133            	| 23 / 74                           	|
-| IDA* - euristica 2                    	| 3 / 4             	|    4.4 / 6.25   	|              109 / 215             	|            1810 / 5321           	| 109 / 344                         	|
-| IDA* - euristica inadmisibilă         	| 3 / 4             	|    4.4 / 6.25   	|              146 / 242             	|           6516 / 14895           	| 461 / 1074                        	|
+| Uniform Search                        	|     3 / 4             	|    4.4 / 6.25   	|              702 / 822             	|            770 / 1017            	|    40 / 86                           	|
+| A* - euristica banală                 	|     3 / 4             	|    4.4 / 6.25   	|              300 / 432             	|             320 / 502            	|    15 / 27                           	|
+| A* - euristica 1                      	|    3 / 4             	|    4.4 / 6.25   	|              89 / 159              	|             94 / 193             	|    5 / 12                            	|
+| A* - euristica 2                      	|    3 / 4             	|    4.4 / 6.25   	|              300 / 426             	|             321 / 502            	|    16 / 29                           	|
+| A* - euristica inadmisibilă           	|    3 / 4             	|    4.4 / 6.25   	|              694 / 782             	|             761 / 966            	|    36 / 56                           	|
+| A* optimizat - euristica banală       	|    3 / 4             	|    4.4 / 6.25   	|              201 / 199             	|             278 / 374            	|    28 / 33                           	|
+| A* optimizat - euristica 1            	|    3 / 4             	|    4.4 / 6.25   	|              80 / 101              	|             84 / 149             	|    13 / 29                           	|
+| A* optimizat - euristica 2            	|    3 / 4             	|    4.4 / 6.25   	|              200 / 200             	|             279 / 377            	|    59 / 56                           	|
+| A* optimizat - euristica inadmisibilă 	|    6  / 4            	|   11.75 /6.25   	|             1344 / 257             	|            5373 / 537            	|    1462 / 64                         	|
+| IDA* - euristica banală               	|    3 / 4             	|     4.4 / 6.25    |              53 / 163               	|             1636 / 4820             	|    105 / 312                         	|
+| IDA* - euristica 1                    	|    3  / 4            	|    4.4 / 6.25   	|              77 / 186              	|            349 / 1133            	|    23 / 74                           	|
+| IDA* - euristica 2                    	|    3 / 4             	|    4.4 / 6.25   	|              109 / 215             	|            1810 / 5321           	|    109 / 344                         	|
+| IDA* - euristica inadmisibilă         	|    3 / 4             	|    4.4 / 6.25   	|              146 / 242             	|           6516 / 14895           	|    461 / 1074                        	|
+
+### 6. Concluzii
+
+Euristicile folosite influențează extrem de mult parametrii de funcționare a algoritmilor. Se observă că o euristică bine implementată poate reduce cu până la 80% timpul de execuție (IDA* euristica banală vs euristica 1) și implicit numărul total de noduri generate. 
+În schimb, folosirea unei euristici inadmisibile poate avea efecte dezastruoase cum ar fi obținerea unor rezultate greșite dpdv al costului și lungimii, creșterea numărului maxim de noduri în memorie cu până la 600% (A* banal vs inadmisibil), creșterea numărului de noduri generate până la **2000%** și a timpului de execuție până la **5200%**.
+Nu pare să fie o relație directă între euristica folosită și numărul maxim de noduri din memorie (la IDA* numărul acestora crește față de euristica banală, in timp ce la A* scade cu 70%).
+
+Când vine vorba despre algoritmi în sine, în mod surprinzător A* a avut cel mai mic timp de execuție pentru găsirea primului drum până la starea finală și nu A* optimizat, așa cum ar fi fost de așteptat. Cel mai probabil acest lucru este datorat unor detalii de implementare. 
+Deși mai lent decât celelalte variante de A*, IDA* are avantajul de a ține numărul de noduri din memorie mult mai mic, chiar dacă generează mult mai multe, fapt ce îl face să fie varianta câștigătoare în cazul în care memoria este limitată. 
+În rest, toți cei 4 algoritmi ne furnizează drumul optim cât timp folosim o euristică admisibilă.
