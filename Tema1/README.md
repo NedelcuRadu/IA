@@ -72,3 +72,21 @@ Stare finală  Stare curentă:
                     bb                cost 2/3 
                     cc
 ``` 
+
+### 5. Compararea algoritmilor pentru fișierele input1 și input2
+
+| Algoritmul folosit                    	| Lungimea drumului 	| Costul drumului 	| Numărul maxim de noduri în memorie 	| Numărul total de noduri generate 	| Timpul pentru a găsi soluția (ms) 	|
+|---------------------------------------	|-------------------	|:---------------:	|:----------------------------------:	|:--------------------------------:	|-----------------------------------	|
+| Uniform Search                        	| 3 / 4             	|    4.4 / 6.25   	|              702 / 822             	|            770 / 1017            	| 40 / 86                           	|
+| A* - euristica banală                 	| 3 / 4             	|    4.4 / 6.25   	|              300 / 432             	|             320 / 502            	| 15 / 27                           	|
+| A* - euristica 1                      	| 3 / 4             	|    4.4 / 6.25   	|              89 / 159              	|             94 / 193             	| 5 / 12                            	|
+| A* - euristica 2                      	| 3 / 4             	|    4.4 / 6.25   	|              300 / 426             	|             321 / 502            	| 16 / 29                           	|
+| A* - euristica inadmisibilă           	| 3 / 4             	|    4.4 / 6.25   	|              694 / 782             	|             761 / 966            	| 36 / 56                           	|
+| A* optimizat - euristica banală       	| 3 / 4             	|    4.4 / 6.25   	|              201 / 199             	|             278 / 374            	| 28 / 33                           	|
+| A* optimizat - euristica 1            	| 3 / 4             	|    4.4 / 6.25   	|              80 / 101              	|             84 / 149             	| 13 / 29                           	|
+| A* optimizat - euristica 2            	| 3 / 4             	|    4.4 / 6.25   	|              200 / 200             	|             279 / 377            	| 59 / 56                           	|
+| A* optimizat - euristica inadmisibilă 	| 6  / 4            	|   11.75 /6.25   	|             1344 / 257             	|            5373 / 537            	| 1462 / 64                         	|
+| IDA* - euristica banală               	| 3 / 4             	| 4.4 / 6.25      	|  53 / 163                          	| 1636 / 4820                      	| 105 / 312                         	|
+| IDA* - euristica 1                    	| 3  / 4            	|    4.4 / 6.25   	|              77 / 186              	|            349 / 1133            	| 23 / 74                           	|
+| IDA* - euristica 2                    	| 3 / 4             	|    4.4 / 6.25   	|              109 / 215             	|            1810 / 5321           	| 109 / 344                         	|
+| IDA* - euristica inadmisibilă         	| 3 / 4             	|    4.4 / 6.25   	|              146 / 242             	|           6516 / 14895           	| 461 / 1074                        	|
