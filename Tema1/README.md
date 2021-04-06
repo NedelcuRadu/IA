@@ -60,9 +60,9 @@ Dacă X = 0, atunci nu trebuie să tăiem nimic și costLinii = 0.
 Daca X != 0, în cel mai bun caz aceste linii sunt toate adiacente, iar numărul de coloane este minim posibil, adică egal cu numărul de coloane al stării finale. 
 Așadar, înlocuind în formula pentru cost, putem să le tăiem cu un cost de nrColoaneStareFinală / (nrLiniiStareCurentă - nrLiniiStareFinală)
 
-* Euristica 2 - Ține cont doar dacă trebuie să tai coloane, justificarea este aceeași ca mai sus
+*  #### Euristica 2 - Ține cont doar dacă trebuie să tai coloane, justificarea este aceeași ca mai sus
 
-* Euristica inadmisibilă - Pentru fiecare linie/coloană care trebuie tăiată, consider costul 1.
+*  #### Euristica inadmisibilă - Pentru fiecare linie/coloană care trebuie tăiată, consider costul 1.
 Exemplu:
 ``` 
 Stare finală  Stare curentă:                                    
